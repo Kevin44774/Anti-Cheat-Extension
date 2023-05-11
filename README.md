@@ -1,2 +1,2 @@
 # CyberSecurityHonorsSCE
-Google chrome Extention Tracking If-Copy Scenario and Logging the Event
+Google chrome Extention Tracking If-Copy Scenario and get the Events 
