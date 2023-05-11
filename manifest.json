@@ -1,0 +1,11 @@
+{
+    "name": "If-Copied",
+    "version": "1.0.0",
+    "description": "if something is copied from screen.",
+    "manifest_version": 3,
+    "author": "Atharva Shobhane",
+    "action":{
+        "default_popup": "gui.html",
+        "default_title": "If Copied"
+    }
+}

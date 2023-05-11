@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gui.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="copyy">Copied</div>
+    <div style="color: black;font-size: 50px;" class="texts">Hello</div>
+</body>
+<script>
+    const source = document.querySelector("div.texts");
+
+    source.addEventListener("copy", (event) => {
+    // document.getElementById("copyy").style.display = "block";
+    console.log("COPIED!!!")
+    window.alert("Copied")
+    
+    });
+
+
+</script>
+
+</html>

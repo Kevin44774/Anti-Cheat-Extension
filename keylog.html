@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS PHP Keylog</title>
+    <meta charset="utf-8">
+    <script src="keylog.js"></script>
+  </head>
+  <body>
+    <h1>All key presses will be recorded!</h1>
+    <textarea></textarea>
+  </body>
+  <script>
+    const source = document.querySelector("h1");
+
+    source.addEventListener("copy", (event) => {
+    document.getElementById("copyy").style.display = "block";
+    console.log("COPIED!!!")
+    });
+  </script>
+</html>

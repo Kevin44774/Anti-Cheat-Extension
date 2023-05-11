@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#copyy{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 6rem;
+    font-family: 'Poppins';
+    font-size: 1rem;
+    background-color: #FF0000;
+    font-weight: 500;
+    color: #fff;
+    /* border-radius: 10px; */
+    /* margin-top: 1rem; */
+}
